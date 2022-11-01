@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <link rel="shortcut icon" href="static/assets/images/logo.png"alt="">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <title>AI-Virtual-Painter</title>
+    <!-- Bootstrap core CSS -->
+    <link href="static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="static/assets/css/fontawesome.css">
+    <link rel="stylesheet" href="static/assets/css/templatemo-space-dynamic.css">
+    <link rel="stylesheet" href="static/assets/css/animated.css">
+    <link rel="stylesheet" href="static/assets/css/owl.css">
+<!--
+    
+TemplateMo 562 Space Dynamic
+
+https://templatemo.com/tm-562-space-dynamic
+
+-->
+  </head>
+
+<body>
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Start ***** -->
+            <a href="#" class="logo">
+              <h4>AI-<span>Virtual-Painter</span></h4>
+            </a>
+            <!-- ***** Logo End ***** -->
+            <!-- ***** Menu Start ***** -->
+            <ul class="nav">
+              <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
+              <li class="scroll-to-section"><a href="#about">About</a></li>
+              <li class="scroll-to-section"><a href="#services">Tools/Frameworks</a></li>
+              <li class="scroll-to-section"><a href="#portfolio">App Info</a></li>
+              <li class="scroll-to-section"><a href="#blog">App</a></li>
+              <li class="scroll-to-section"><div class="main-red-button"><a href="#contact">Contact me</a></div></li>
+            </ul>        
+            <a class='menu-trigger'>
+                <span>Menu</span>
+            </a>
+            <!-- ***** Menu End ***** -->
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="row">
+            <div class="col-lg-6 align-self-center">
+              <div class="left-content header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
+                <h6>Welcome to one more AI based model</h6>
+                <h2>Upgrading our <em>Tomorrow</em> &amp; <span>Developing Artificial</span> Intelligence</h2>
+                <p>AI-based-Virtual-Paint-App is an amazing piece of art, Experience AI in new Painting App.
+                  Building artificial intelligence (AI) systems involves more than learning how to perform a
+                  specific task from data; it requires a strong data foundation and infrastructure architecture , AI is the Future.</p>
+                <form id="search" action="#" method="GET">
+                  <fieldset>
+                    <a href="{{ url_for('draw') }}"><button src="" alt="">Go To App</a>
+                  </fieldset>
+                </form>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+                <img src="static/assets/images/bg2.jpg" alt="" height="100%">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="about" class="about-us section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="left-image wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
+            <img src="static/assets/images/about-left-image.png" alt="person graphic">
+          </div>
+        </div>
+        <div class="col-lg-8 align-self-center">
+          <div class="services">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="item wow fadeIn" data-wow-duration="0.1s" data-wow-delay="0.5s">
+                  <div class="icon">
+                    <img src="static/assets/images/service-icon-01.png" alt="reporting">
+                  </div>
+                  <div class="right-text">
+                    <h4>About App</h4>
+                    <p>This App works on the latest mediapipe and opencv frameworks that can detect hand motions and
+                    perform tasks in real Time. Use of Two Fingers is dine to switch to selection mode and for Switching
+                    to Drawing Mode again use index finger only</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.7s">
+                  <div class="icon">
+                    <img src="static/assets/images/service-icon-02.png" alt="">
+                  </div>
+                  <div class="right-text">
+                    <h4>Data Collection</h4>
+                    <p>The data is collected by the App in the form of live cam and then
+                    transferred to the python module , where after compiling
+                    the data the real time image is converted to a grayscale and inverted Image.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.9s">
+                  <div class="icon">
+                    <img src="static/assets/images/service-icon-03.png" alt="">
+                  </div>
+                  <div class="right-text">
+                    <h4>Python Module</h4>
+                    <p>Python Module File is a full of piece of code that is working as a backend
+                    and  is encoding the data and is using the necessary HandTrackingModule present
+                    int the python files to detect motion of Hands and with the collected data it is
+                    compiling our real Time Video image to Output. </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="item wow fadeIn" data-wow-duration="1s" data-wow-delay="1.1s">
+                  <div class="icon">
+                    <img src="static/assets/images/service-icon-04.png" alt="">
+                  </div>
+                  <div class="right-text">
+                    <h4>Hand Tracking Module </h4>
+                    <p>This Module is the Base python file for this App as it uses the latest
+                    version of mediapipe and opencv-python to detect hand motions . Mediapipe is used
+                    here for Tracing out the coordinante points on the finger as it is officially
+                    provided by Google</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="services" class="our-services section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 align-self-center  wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
+          <div class="left-image">
+            <img src="static/assets/images/robot.png" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
+          <div class="section-heading">
+            <h2>This Idea can be a revolution in Future <em>, a step ahead to advancement </em>&amp; <span>Development in Artificial </span> Intelligence</h2>
+            <p>This idea for creating a App like this with Artificial Intelligence can make a
+            big change in future and is easy to use . This App is a quite good demonstration
+            of how an Actual AI works in real Time , have Fun with A-V-P</p>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="first-bar progress-skill-bar">
+                <h4>Mediapipe & OpenCV-python</h4>
+                <span>84%</span>
+                <div class="filled-bar"></div>
+                <div class="full-bar"></div>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div class="second-bar progress-skill-bar">
+                <h4>Html,Css,JS,&AMP;BootStrap</h4>
+                <span>88%</span>
+                <div class="filled-bar"></div>
+                <div class="full-bar"></div>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div class="third-bar progress-skill-bar">
+                <h4>Flask &AMP; Python</h4>
+                <span>94%</span>
+                <div class="filled-bar"></div>
+                <div class="full-bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="portfolio" class="our-portfolio section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 offset-lg-3">
+          <div class="section-heading  wow bounceIn" data-wow-duration="1s" data-wow-delay="0.2s">
+            <h2> Backend for <em>AI-Virtual-Paint-App</em> &amp; Perks of the App <span>Took a lot of efforts to make this Happen</span></h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-sm-6">
+          <a href="#">
+            <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+              <div class="hidden-content">
+                <h4>Base of the App</h4>
+                <p>The main file that runs in the App is Hand Tracking module which
+                is based on the latest mediapipe, openCV-python, numpy , OS and CV2 is imported</p>
+              </div>
+              <div class="showed-content">
+                <img src="static/assets/images/ml.png" alt="">
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <a href="#">
+            <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.4s">
+              <div class="hidden-content">
+                <h4>FrameWork Used</h4>
+                <p>Used python-3.9 with Pycharm framework to successfully and Flask is used to Host on local Server.</p>
+              </div>
+              <div class="showed-content">
+                <img src="static/assets/images/ml.png" alt="">
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <a href="#">
+            <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+              <div class="hidden-content">
+                <h4>Frontend-Part</h4>
+                <p>Html,CSS,GoogleFonts,BootStrap &AMP; AwesomeFonts.google are used to make an Attractive UI</p>
+              </div>
+              <div class="showed-content">
+                <img src="static/assets/images/ml.png" alt="">
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <a href="#">
+            <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.6s">
+              <div class="hidden-content">
+                <h4>Analysis</h4>
+                <p>Complete Working Model with a GUI ,and performing well on Server <br>
+                Great Success 😁</p>
+              </div>
+              <div class="showed-content">
+                <img src="static/assets/images/ml.png" alt="">
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="blog" class="our-blog section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.25s">
+          <div class="section-heading">
+            <h2>Check Out the <em>AI-Virtual-Paint-App</em> <span>Now</span></h2>
+          </div>
+        </div>
+        <div class="col-lg-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.25s">
+          <div class="top-dec">
+            <img src="static/assets/images/robot.gif" alt="" height="200px">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
+          <div class="left-image">
+            <a href="{{ url_for('draw') }}"><img src="static/assets/images/camera.png" alt="Workspace Desktop"></a>
+            <div class="info">
+              <div class="inner-content">
+                <ul>
+                  <li><i class="fa fa-eercast"></i> App</li>
+                  <li><i class="fa fa-users"></i> Share with others</li>
+                </ul>
+                <a href="{{ url_for('draw') }}"><h4>Virtual-Painting-App</h4></a>
+                <p>Try AI-Virtual-Paint-App...</p>
+                <div class="main-blue-button">
+                  <a href="{{ url_for('draw') }}">Open App</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
+          <div class="right-list">
+            <ul>
+              <li>
+                <div class="left-content align-self-center">
+                  <span><i class="fa fa-anchor"></i>Also Try
+                  <a href="{{ url_for('finger_count') }}"><h4>Finger-Count-App</h4></a>
+                    <p>Detects your right hand's fingers </p></span>
+                </div>
+                <div class="right-image">
+                  <a href="{{ url_for('finger_count') }}"><img src="static/assets/images/camera.png" alt=""></a>
+                </div>
+              </li>
+              <li>
+                <div class="left-content align-self-center">
+                  <span><i class="fa fa-anchor"></i> Hand Tracking Simulation used </span>
+                  <a href="{{ url_for('hand_track') }}"><h4>Hand Tracking Module &amp; Hand Motion Detection</h4></a>
+                  <p>Detects your hand motions.</p>
+                </div>
+                <div class="right-image">
+                  <a href="{{ url_for('hand_track') }}"><img src="static/assets/images/camera.png" alt=""></a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="contact" class="contact-us section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 align-self-center wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.25s">
+          <div class="section-heading">
+            <h2>Contact me </h2>
+            <p>I Am Not A Good Programmer But I Am A Good Learner. 🙂</p>
+            <div class="phone-info">
+              <h4><span><i class="fa fa-envelope"></i> <a href="#">singh9456092@gmail.com</a></span></h4>
+              <h3><i class="fa fa-linkedin-square"></i><span>  <a rel="nofollow" href="https://www.linkedin.com/in/shivam-singh-a19a32214/">LinkedIn</a></span>
+                <i class="fa fa-github"></i><span>  <a rel="nofollow" href="https://github.com/Shivam9456Singh">Github</a></span>
+                <i class="fa fa-instagram"></i><span>  <a rel="nofollow" href="https://www.instagram.com/s_h_i_v_a_m_0_9_0_1/">Instagram</a></span>
+              </h3>
+            </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.25s">
+          <img src="static/assets/images/Background.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.25s">
+          <p>© Copyright **2022** All Rights Reserved.
+
+          <br>Design: <a rel="nofollow" href="#">Shivam</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Scripts -->
+  <script src="static/vendor/jquery/jquery.min.js"></script>
+  <script src="static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="static/assets/js/owl-carousel.js"></script>
+  <script src="static/assets/js/animation.js"></script>
+  <script src="static/assets/js/imagesloaded.js"></script>
+  <script src="static/assets/js/templatemo-custom.js"></script>
+
+</body>
+</html>
