@@ -32,7 +32,14 @@ To run this App in your local Host just download the .zip file of this repositor
 
 ------ Demo Video of Website ---------
 
-  [Website Demo](https://drive.google.com/file/d/1aKSBbZkPtf9uBlA5jt-PAo80M2Ov2FMk/view?usp=drivesdk)
+  [--Website Demo--](https://drive.google.com/file/d/1aKSBbZkPtf9uBlA5jt-PAo80M2Ov2FMk/view?usp=drivesdk)
 
 
 
+
+
+
+
+
+
+![App Demo](https://user-images.githubusercontent.com/113454708/199302004-ce02b038-f061-4e72-aee5-94e2158e9105.gif)
