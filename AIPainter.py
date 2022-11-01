@@ -7,7 +7,7 @@ import time
 import cv2
 
 app = Flask(__name__)
-cap = VideoCamera()
+cap = cv2.VideoCapture()
 
 
 def Hand_Track():
