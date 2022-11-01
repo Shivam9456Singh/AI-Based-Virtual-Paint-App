@@ -30,7 +30,7 @@ To run this App in your local Host just download the zip file of this repository
 
 ![Website Preview](https://user-images.githubusercontent.com/113454708/199110932-c602ec63-fc37-400b-9d7a-d9db70b58a02.jpg)
 
------- Video of Working Website ---------
+------ Demo Video of Website ---------
 
   [Website Demo](https://drive.google.com/file/d/1aKSBbZkPtf9uBlA5jt-PAo80M2Ov2FMk/view?usp=drivesdk)
 
