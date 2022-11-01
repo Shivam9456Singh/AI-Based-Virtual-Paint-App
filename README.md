@@ -10,12 +10,12 @@ B.TECH 3RD YEAR
 -----------------APP---------------------------
 
 This is an opencv App with having AI to detect the hand motion to paint in real time .
-deploying through Heroku, and so facing some buggs for deployment on it. will solve the errors and buggs and will try to deploy a live Site by 2 Nov.
+deploying through Heroku, and so facing some issues with output on it.
 else i have attached a demo image and video of working site AI-Virtual-Painter
 
 OR
 
-To run this App in your local Host just download the zip file of this repository and extract all the files and just need to run AIPaintrer.py file then this App will work on your local host .
+To run this App in your local Host just download the .zip file of this repository and extract all the files and just need to run AIPaintrer.py file after that the App will work on your local host .
 
 ---- Attached a demo site image and Video of Working Website on local server ----
 
