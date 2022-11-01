@@ -7,6 +7,7 @@ import time
 import cv2
 
 app = Flask(__name__)
+video_stream = VideoCamera()
 
 
 def Hand_Track():
@@ -75,7 +76,7 @@ def Hand_Track():
 
     pTime = 0
     cTime = 0
-    cap = cv2.VideoCapture(0)
+    #cap = cv2.VideoCapture(0)
     detector = handDetector()
 
     while True:
@@ -307,7 +308,15 @@ def Finger_Count():
 @app.route('/')
 def home():
     return render_template('index.html')
+def gen(camera):
+    while(True):
+        frame = camera.get_frame()
+        yield yield (b'--frame\r\n'
+               b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n')
 
+def video_feed():
+    return Response(gen(video_stream),
+                    mimetype='multipart/x-mixed-replace; boundary=frame')
 @app.route('/finger_count')
 def finger_count():
     return Response(Finger_Count(),mimetype='multipart/x-mixed-replace; boundary=frame')

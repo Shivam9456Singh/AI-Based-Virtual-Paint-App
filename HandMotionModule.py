@@ -2,7 +2,6 @@ import cv2
 import mediapipe as mp
 import time
 
-
 class handDetector():
     def __init__(self,mode=False,maxHands = 2,complexity=1, detectionCon =0.5,trackCon=0.5):
       self.mode = mode
@@ -72,7 +71,15 @@ class handDetector():
 def main():
     pTime = 0
     cTime = 0
-    cap = cv2.VideoCapture(0)
+    # try:
+    # cap = cv2.VideoCapture(0)
+    # cap = cv2.VideoCapture("rtsp://192.168.1.2:5000/out.h264")
+    # cap = cv2.VideoCapture(
+    #     "udpsrc port=5000 ! application/x-rtp,media=video,encoding-name=H264 ! queue ! rtpjitterbuffer latency=500 ! rtph264depay ! h264parse ! avdec_h264 ! videoconvert ! video/x-raw,format=BGR ! queue ! appsink drop=1",
+    #     cv2.CAP_GSTREAMER)
+
+    cap = None
+
     detector = handDetector()
 
     while True:
