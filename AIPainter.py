@@ -7,7 +7,7 @@ import time
 import cv2
 
 app = Flask(__name__)
-cap = cv2.VideoCapture()
+
 
 
 def Hand_Track():
@@ -76,7 +76,7 @@ def Hand_Track():
 
     pTime = 0
     cTime = 0
-    #cap = cv2.VideoCapture(0)
+    cap = cv2.VideoCapture(0)
     detector = handDetector()
 
     while True:
@@ -123,7 +123,7 @@ def Draw():
     header = overlayList[0]
     selectColor = (220,248,255)
 
-    #cap = cv2.VideoCapture(0)
+    cap = cv2.VideoCapture(0)
     cap.set(3,1280)
     cap.set(4,720)
 
@@ -234,7 +234,7 @@ def Draw():
 
 def Finger_Count():
     wCam, hCam = 640, 480
-    #cap = cv2.VideoCapture(0)
+    cap = cv2.VideoCapture(0)
     cap.set(3, wCam)
     cap.set(4, hCam)
 
@@ -308,6 +308,7 @@ def Finger_Count():
 @app.route('/')
 def home():
     return render_template('index.html')
+
 
 @app.route('/finger_count')
 def finger_count():
