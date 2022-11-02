@@ -9,9 +9,9 @@ B.TECH 3RD YEAR
 
 -----------------APP---------------------------
 
-This is an opencv App with having AI to detect the hand motion to paint in real time .
+This is an opencv App with having AI to detect the hand motions to paint in real time .
 deploying through Heroku, and so facing some issues with output on it.
-else i have attached a demo image and video of working site AI-Virtual-Painter
+else i have attached a demo image and video of working App AI-Virtual-Painter
 
 OR
 
