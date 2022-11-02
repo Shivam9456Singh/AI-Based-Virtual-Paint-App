@@ -16,6 +16,13 @@ else i have attached a demo image and video of working App AI-Virtual-Painter
 OR
 
 To run this App in your local Host just download the .zip file of this repository and extract all the files and just need to run AIPaintrer.py file after that the App will work on your local host .
+------
+
+Install some Packages before Run ----
+
+opencv-python
+mediapipe
+flask
 
 ---- Attached a demo site image and Video of Working Website on local server ----
 
