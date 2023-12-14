@@ -21,7 +21,7 @@ OR
 
 **To initiate the "AI Virtual Painter" application on your local machine, please begin by downloading the provided `.zip` archive of the repository. Upon downloading, proceed to extract all the contents contained within the archive. Once extraction is complete, simply execute the `AIPainter.py` script. Following this, the application should be operational on your local host environment.**
 
-**Should you require any further instructions or assistance, please do not hesitate to contact me.**
+**If you require any further instructions or assistance, please do not hesitate to contact me.**
 
 ------
 
