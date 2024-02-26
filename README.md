@@ -38,9 +38,9 @@ flask**
 #output
 
 Deployed on Heroku in free subscription. So may stop working after some time .
-[Website Link -](https://opencv-painter.herokuapp.com/)
+[Website Link -](https://opencv-painter.herokuapp.com/)<br>
 
-  <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7143142888502190080" height="1181" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+#[view Prototype](https://www.linkedin.com/posts/shivam-s0901_connections-project-ml-activity-7143143389608263680-8PfJ?utm_source=share&utm_medium=member_desktop)<br><br>
 
 ![App Demo](https://user-images.githubusercontent.com/113454708/199302004-ce02b038-f061-4e72-aee5-94e2158e9105.gif)
 
