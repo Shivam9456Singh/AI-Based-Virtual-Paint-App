@@ -51,7 +51,8 @@ Deployed on Heroku in free subscription. So may stop working after some time .
 
 ------ Demo Video of Website ---------
 
-  [--Website Demo--](https://drive.google.com/file/d/1aKSBbZkPtf9uBlA5jt-PAo80M2Ov2FMk/view?usp=drivesdk)
+  [--Website Demo--](https://www.linkedin.com/posts/shivam-s0901_connections-project-ml-activity-7143143389608263680-8PfJ?utm_source=share&utm_medium=member_desktop)
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7143142888502190080?compact=1" height="399" width="710" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 
 
 
