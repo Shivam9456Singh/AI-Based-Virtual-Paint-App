@@ -40,7 +40,7 @@ flask**
 Deployed on Heroku in free subscription. So may stop working after some time .
 [Website Link -](https://opencv-painter.herokuapp.com/)<br>
 
-[view Prototype](https://www.linkedin.com/posts/shivam-s0901_connections-project-ml-activity-7143143389608263680-8PfJ?utm_source=share&utm_medium=member_desktop)<br><br>
+[view Prototype](https://www.linkedin.com/posts/shivam-singh-a19a32214_connections-project-ml-activity-7143143389608263680-qsdM?utm_source=share&utm_medium=member_desktop&rcm=ACoAADZB_jUBt9gdjpIe74Nl5sPUUNjr5e6QtBs)<br><br>
 
 ![App Demo](https://user-images.githubusercontent.com/113454708/199302004-ce02b038-f061-4e72-aee5-94e2158e9105.gif)
 
